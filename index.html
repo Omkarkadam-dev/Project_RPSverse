@@ -36,6 +36,28 @@
     </div>
   </div>
 
+  <div class="game-container">
+    <h1>✌️ RPS Royale - 2 Player Mode</h1>
+
+    <div class="scoreboard">
+      <div>🧍‍♂️ Player 1: <span id="player1-score">0</span></div>
+      <div>🧍‍♀️ Player 2: <span id="player2-score">0</span></div>
+    </div>
+
+    <div id="turn-indicator">Player 1's Turn</div>
+
+    <div class="choices">
+      <button class="choice" data-choice="rock"><i class="fas fa-hand-rock"></i><span>Rock</span></button>
+      <button class="choice" data-choice="paper"><i class="fas fa-hand-paper"></i><span>Paper</span></button>
+      <button class="choice" data-choice="scissors"><i class="fas fa-hand-scissors"></i><span>Scissors</span></button>
+    </div>
+
+    <div class="result">
+      <p id="result-text">Waiting for players...</p>
+      <p id="chosen-text"></p>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
